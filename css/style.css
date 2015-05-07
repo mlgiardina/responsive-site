@@ -28,3 +28,54 @@
 
 .main-image-text {
   margin: 0 auto; }
+
+.main-body {
+  background: white;
+  padding: 25px 10px; }
+
+.member-levels {
+  height: 220px;
+  padding: 25px 125px;
+  box-sizing: border-box; }
+
+.level-name {
+  margin: 0 auto;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding-top: 10px; }
+
+.price {
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: 85px; }
+
+.per-month {
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #F7F7F7;
+  opacity: .5; }
+
+.personal {
+  background: #539153; }
+
+.small-business {
+  background: #2D4A83; }
+
+.enterprise {
+  background: #101010; }
+
+.level-features {
+  background: #F7F7F7;
+  height: 45px;
+  border-bottom: 1px solid #E8E8E8;
+  border-left: 1px solid #E8E8E8;
+  border-right: 1px solid #E8E8E8;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+  color: #49575C; }
