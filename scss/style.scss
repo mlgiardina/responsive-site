@@ -42,10 +42,11 @@ $level-month-color: #F7F7F7;
 }
 
 .member-levels {
-height: 220px;
-padding: 25px 125px;
-box-sizing: border-box;
-}
+	height: 220px;
+	padding: 25px 125px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	}
 
 .level-name {
 	margin: 0 auto;
@@ -95,4 +96,59 @@ box-sizing: border-box;
 	padding-top: 15px;
 	box-sizing: border-box;
 	color: #49575C;
+}
+
+.choose-button-box {
+	height: 85px;
+	background: white;
+	border-bottom: $feature-border;
+	border-left: $feature-border;
+	border-right: $feature-border;
+	padding: 20px 140px;
+	box-sizing: border-box;
+}
+
+.choose-button {
+	border-radius: 2em;
+	border: 2px solid #E8E8E8;
+	width: 90px;
+	height: 28px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 8px;
+}
+
+.more-details {
+	margin: 20px auto;
+	padding: 20px 20px 0px 20px;
+}
+
+.details-title {
+	margin: 5 auto;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.details-description {
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.bottom-bar {
+	height: 100px;
+	background: black;
+	color: #939393;
+	padding-top: 3px;
+	padding-bottom: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.bottom-bar-emphasis {
+	color: white;
+	text-decoration: underline;
 }
