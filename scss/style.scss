@@ -1,0 +1,33 @@
+.navbar {
+	margin: 0 auto;
+	text-align: center;
+	height: 35px;
+	font-size: 16px;
+	line-height: 35px;
+}
+.top-nav{
+	/*padding: 10px;*/
+	float: left;
+	margin: 0 auto;
+	display: inline-block;
+	width: 25%;
+}
+
+.main-image {
+	background: url(../background.jpg);
+	background-size: fixed;
+	background-repeat: no-repeat;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 200px;
+}
+
+.main-image-text {
+	margin: 0 auto;
+}
