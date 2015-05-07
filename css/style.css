@@ -20,6 +20,7 @@
   text-align: center;
   color: white;
   font-size: 40px;
+  text-shadow: 1px 1px 1px #000;
   box-sizing: border-box;
   margin-top: 0;
   margin-left: 2px;
@@ -109,7 +110,8 @@
   margin: 5 auto;
   font-size: 20px;
   font-weight: bold;
-  padding: 5px 0; }
+  padding: 5px 0;
+  letter-spacing: .2em; }
 
 .details-description {
   margin: 0 auto;
@@ -128,3 +130,9 @@
 .bottom-bar-emphasis {
   color: white;
   text-decoration: underline; }
+
+@media (min-width: 479px) {
+  .main-image {
+    height: 400px;
+    padding-top: 150px;
+    font-size: 46px; } }
