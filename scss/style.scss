@@ -10,7 +10,6 @@ $level-month-color: #F7F7F7;
 	line-height: 35px;
 }
 .top-nav{
-	/*padding: 10px;*/
 	float: left;
 	margin: 0 auto;
 	display: inline-block;
@@ -39,15 +38,14 @@ $level-month-color: #F7F7F7;
 
 .main-body {
 	background: white;
-	padding: 25px 10px;
+	padding: 25px 8px;
 }
 
 .member-levels {
-	height: 220px;
-	padding: 25px 125px;
+	padding: 25px 10px;
 	box-sizing: border-box;
 	margin-top: 30px;
-	}
+}
 
 .level-name {
 	margin: 0 auto;
@@ -130,13 +128,13 @@ $level-month-color: #F7F7F7;
 	margin: 5 auto;
 	font-size: 20px;
 	font-weight: bold;
-	padding: 5px 0;
+	padding: 15px 0;
 	letter-spacing: .2em;
 }
 
 .details-description {
 	margin: 0 auto;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 }
 
@@ -161,10 +159,44 @@ $level-month-color: #F7F7F7;
 		padding-top: 150px;
 		font-size: 46px;
 	}
+	.bottom-text {
+		display: block;
+	}
 }
 
 @media (min-width: 767px) {
+	.member-levels {
+		width: 33.3%;
+		float: left;
+	}
 
+	.choose-button-box {
+		padding: 20px 0 0 0;
+	}
+
+	.main-body{
+		overflow: hidden;
+	}
+
+	.more-details {
+		float: left;
+		width: 50%;
+		padding: 20px 20px 0 20px;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	.clear {
+		clear: left;
+	}
+
+	.bottom-text{ 
+		display: inline;
+	}
+
+	.bottom-bar {
+		padding-top: 30px;
+	}
 }
 
 @media (min-width: 979px) {
