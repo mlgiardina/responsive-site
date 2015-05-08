@@ -8,8 +8,10 @@
 .top-nav {
   float: left;
   margin: 0 auto;
-  display: inline-block;
+  color: #797979;
   width: 25%; }
+  .top-nav:hover {
+    color: black; }
 
 .main-image {
   background: url(../background.jpg);
@@ -99,10 +101,13 @@
   font-weight: bold;
   font-size: 16px;
   padding-top: 8px; }
+  .choose-button:hover {
+    border-color: black;
+    box-shadow: 1px 1px 1px #000; }
 
 .more-details {
   margin: 20px auto;
-  padding: 20px 20px 0px 20px; }
+  padding: 20px 20px 0 20px; }
 
 .details-title {
   margin: 5 auto;
@@ -151,9 +156,20 @@
     padding: 20px 20px 0 20px;
     box-sizing: border-box;
     margin: 0; }
+  .top-nav {
+    margin: 5px 15px;
+    width: auto; }
   .clear {
     clear: left; }
   .bottom-text {
     display: inline; }
   .bottom-bar {
     padding-top: 30px; } }
+
+@media (min-width: 979px) {
+  .memberships {
+    max-width: 979px;
+    margin: 0 auto; }
+  .details {
+    max-width: 979px;
+    margin: 0 auto; } }

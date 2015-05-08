@@ -1,6 +1,7 @@
 $feature-border: 1px solid #E8E8E8;
 $level-name-color: white;
 $level-month-color: #F7F7F7;
+$shadow: 1px 1px 1px #000;
 
 .navbar {
 	margin: 0 auto;
@@ -13,7 +14,11 @@ $level-month-color: #F7F7F7;
 	float: left;
 	margin: 0 auto;
 	display: inline-block;
+	color: #797979;
 	width: 25%;
+	&:hover {
+		color: black;
+	}
 }
 
 .main-image {
@@ -24,7 +29,7 @@ $level-month-color: #F7F7F7;
 	text-align: center;
 	color: white;
 	font-size: 40px;
-	text-shadow: 1px 1px 1px #000;
+	text-shadow: $shadow;
 	box-sizing: border-box;
 	margin-top: 0;
 	margin-left: 2px;
@@ -117,6 +122,10 @@ $level-month-color: #F7F7F7;
 	font-weight: bold;
 	font-size: 16px;
 	padding-top: 8px;
+	&:hover {
+		border-color: black;
+		box-shadow: $shadow;
+	}
 }
 
 .more-details {
@@ -186,6 +195,11 @@ $level-month-color: #F7F7F7;
 		margin: 0;
 	}
 
+	.top-nav {
+		margin: 5px 15px;
+		width: auto;
+	}
+
 	.clear {
 		clear: left;
 	}
@@ -200,5 +214,15 @@ $level-month-color: #F7F7F7;
 }
 
 @media (min-width: 979px) {
+	.memberships {
+		max-width: 979px;
+		margin: 0 auto;
+	}
+
+	.details {
+		max-width: 979px;
+		margin: 0 auto;
+	}
+	
 
 }
